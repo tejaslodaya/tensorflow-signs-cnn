@@ -84,7 +84,6 @@ def forward_propagation(X, parameters, c_strides, p_strides, p_ksizes, n_y, padd
 
     return Z
 
-
 def compute_cost(ZL, Y):
     """
     Computes the cost
